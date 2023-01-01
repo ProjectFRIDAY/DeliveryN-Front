@@ -13,7 +13,7 @@ const App = () => {
   return (
     <NavigationContainer>
       <SafeAreaProvider>
-        <Stack.Navigator initialRouteName="Start" screenOptions={{headerShown: false}}>
+        <Stack.Navigator initialRouteName="Signup" screenOptions={{headerShown: false}}>
           <Stack.Screen name="Start" component={StartScreen} />
           <Stack.Screen name="Signup" component={SignupScreen} />
           <Stack.Screen name="Signin" component={SigninScreen} />
