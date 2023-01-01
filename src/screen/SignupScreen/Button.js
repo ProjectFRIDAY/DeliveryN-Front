@@ -3,10 +3,10 @@ import {Pressable, StyleSheet, Text} from 'react-native';
 
 import Colors from '../../constants/Color';
 
-const Button = ({text, style}) => {
+const Button = ({text, style, textStyle}) => {
   return (
     <Pressable style={[styles.button, style]}>
-      <Text style={styles.text}>{text}</Text>
+      <Text style={[styles.text, textStyle]}>{text}</Text>
     </Pressable>
   );
 };
