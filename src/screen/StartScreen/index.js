@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 64,
     fontWeight: '800',
-    shadowColor: Colors.Black,
+    shadowColor: Colors.BLACK,
     shadowOffset: {height: 3},
     shadowOpacity: 0.25,
   },

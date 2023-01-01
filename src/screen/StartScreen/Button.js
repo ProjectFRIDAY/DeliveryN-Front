@@ -24,13 +24,13 @@ const styles = StyleSheet.create({
   container: {
     alignItems: 'center',
     alignSelf: 'stretch',
-    borderColor: Colors.Black,
+    borderColor: Colors.BLACK,
     borderWidth: 1,
     height: 32,
     justifyContent: 'center',
   },
   text: {
-    color: Colors.Black,
+    color: Colors.BLACK,
     fontSize: 15,
   },
 });
